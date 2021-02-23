@@ -296,7 +296,8 @@ namespace WindowsFormsApp1
             timer.Interval = 5;
             Graphics g = pictureBox.CreateGraphics();
             Pen pen = new Pen(Brushes.Gold);
-            string RadiusOrbit = textBox2.Text;          
+            string RadiusOrbit = textBox2.Text;  
+           
             float centerX = 200;           
             string RadiusPlanet = textBox1.Text;             
             float radius = Convert.ToSingle(RadiusPlanet)/3000;
